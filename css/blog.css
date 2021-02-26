@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    border: 1px solid #fff7f0;
+}
+p {
+    line-height: 18px;
+}
+h3 {
+    line-height: 24px;
+}
+button {
+    margin-top: 18px;
+    height: 33px;
+    background-color: #ff8b00;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.i{
+    grid-column: 1/5;
+    grid-row: 4/5;
+}
+.wrapped{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.wrapped > .grid-item.viii{
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+.wrapped.reverce > .grid-item.viii{
+    grid-column: 3/5;
+    grid-row: 2/4;
+}
+.duble-star{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.duble-star > div{
+    flex: 1;
+}
+.grid-text{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: gray;
+}
+.grid-text.grid-item.i{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: cornflowerblue;
+}
+.orange{
+    color: #fc8c07;
+}
+.pre-last-dark {
+    max-width: 620px;
+    opacity: 0.671;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: -18.9rem;
+    padding: 48px 60px;
+}
+
+.half-and-half{
+    max-width: 38.9vw;
+}
+/* .grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-iteem ii{
+    flex: 50%;
+}
+.grid-iteem ii img {
+    width: 77.8vw;
+    max-height: 34.74rem;
+    vertical-align: middle;
+} */
+.wrapped{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-item.v{
+    flex: 50%;
+}
+.grid-item.v img {
+    width: 77.8vw;
+    max-height: 34.74rem;
+    vertical-align: middle;
+}
+.grid-item.v h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-left: 13rem;
+}
+.grid-item.v p{
+    font-size: 14px;
+    margin-left: 15rem;
+}
+.grid-item.v h3,
+.grid-item.v p{
+    align-content: center;
+    margin-top: -6rem;
+    padding-bottom: 78px;
+    line-height: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+.duble-star.more{
+    padding: 120px 60px;
+    line-height: 24px;
+
+}
+.duble-star.more h3{
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-right: 120px;
+}
+.duble-star.more p{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.more button{
+    margin-top: 40px;
+}
+.duble-star-item h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 30px;
+    padding-left: 60px;
+}
+.duble-star-item_sub{
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 60px;
+}
+.duble-star-item p{
+    padding-right: 60px;
+    padding-bottom: 93px;
+}
+.stone-name{
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 91px;
+    padding-left: 60px;
+}
+.travertine{
+    margin-top: 111px;
+    border-top: 1px solid #000;
+    padding-top: 18px;
+}
+.stone-first{
+    padding-left: 60px;
+    margin-top: 75px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.stone{
+    padding-left: 60px;
+    margin-top: 111px;
+}
+
+.grid-iteem.ii img{
+    width: 77.8vw;
+    max-height: 34.74rem;
+}
+.marble{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: white;
+    margin-top: -10rem;
+    padding-left: 60px;
+}
+.marble.orange{
+    color: #ff6d00;
+    font-size: 30px;
+
+}
+.collaboration__sub{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.collaboration{
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 55px;
+}
+.revoke{
+    margin-left: 32rem;
+}
